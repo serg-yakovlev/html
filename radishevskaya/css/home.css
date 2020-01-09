@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css?family=Amato');
+
+@font-face {
+    font-family: amatic-reg;
+    src: url('fonts/Amatic_SC/AmaticSC-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: amatic-bold;
+    src: url('fonts/Amatic_SC/AmaticSC-Bold.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: mont-reg;
+    src: url('fonts/Montserrat/Montserrat-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: mont-med;
+    src: url('fonts/Montserrat/Montserrat-Medium.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: mont-bold;
+    src: url('fonts/Montserrat/Montserrat-Bold.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: mont-sbold;
+    src: url('fonts/Montserrat/Montserrat-SemiBold.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+* {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#app {
+    width: 100%;
+    background: #eee;
+}
+
+#banner {
+    width: 100%;
+
+}
+
+#header {
+    margin-left: 7%;
+    margin-right: 7%;
+    width: 86%;
+    background: #eee;
+
+}
+
+#head_wrap {
+    background: url(banner.png) no-repeat;
+    background-size: 100%;
+    height: 400px;
+
+}
+
+#name {
+    left: 12%;
+    width: 88%;
+    font: 500% amatic-bold;
+    top: 0px;
+    color: #557;
+}
+
+.top_menu_item {
+    display: inline;
+    padding: 20px;
+}
+
+#top_line {
+    width: 95%;
+    text-align: right;
+    font: 120% mont-reg;
+    color: #559;
+    height: 150px;
+    top: 30px;
+}
+
+.icon {
+    width: 35px;
+    height: 30px;
+    margin-right: 25px;
+    margin-top: 10px;
+}
+
+#icons {
+    float: left;
+    left: 7%;
+}
+
+.main_menu_item {
+    display: inline;
+    padding: 20px;
+}
+
+#middle_line {
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+#main_menu {
+    padding-left: 5%;
+    font: 120% mont-reg;
+    color: #559;
+}
+
+#illustr_item {
+    margin-right: 20%;
+}
+
+#pictures {
+    padding-left: 5%;
+    padding-right: 5%;
+    clear:left;
+}
+
+.ill_pict {
+    width: 100%;
+    padding: 20px;
+}
+
+.column {
+    float: left;
+    width: 33.3%;
+}
+
+#footer {
+    float: left;
+    width: 100%;
+    font: 100% mont-reg;
+    color: #003;
+    left: 20px;
+    padding-left: 5%;
+}
+
+.bottom {
+    color: #eee;
+}
