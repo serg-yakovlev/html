@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css?family=Amato');
+
+@font-face {
+    font-family: amatic-reg;
+    src: url('fonts/Amatic_SC/AmaticSC-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: amatic-bold;
+    src: url('fonts/Amatic_SC/AmaticSC-Bold.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: mont-reg;
+    src: url('fonts/Montserrat/Montserrat-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: mont-med;
+    src: url('fonts/Montserrat/Montserrat-Medium.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: mont-bold;
+    src: url('fonts/Montserrat/Montserrat-Bold.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: mont-sbold;
+    src: url('fonts/Montserrat/Montserrat-SemiBold.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+* {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  max-width: 1024px; /*максимальная ширина может иметь другое значение*/
+  padding: 0 15px;
+  margin: 0 auto;
+
+}
+
+header .container {
+    background: url(banner.png) no-repeat;
+    background-size: 100%;
+	height: 370px;
+}
+
+.main container{
+	background: #eee;
+}
+
+footer {
+	background: #ede;
+}
+
+nav_top {
+  float: right;
+}
+
+nav_top ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav_top ul li {
+  display: inline-block;
+  text-decoration: none;
+}
+
+nav_top a {
+  line-height: 38px;
+}
+
+#name {
+	font: 500% amatic-bold;
+	color: #777;
+	padding: 40px;
+}
+
+nav {
+	float: right;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+	font: 100% mont-reg;
+}
+
+.container:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container {
+  width: 100%;
+  max-width: 1024px;
+  padding: 15px;
+  margin: 0 auto;
+}
+
+.col-1-3 {
+  width: 33.3333333333%;
+  float: left;
+}
+
+#col-1 {
+  background: #eee;
+}
+
+#col-2 {
+  background: #eee;
+}
+
+#col-3 {
+  background: #eee;
+}
+
+.container:after, .row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.ill_pict {
+	width: 100%;
+	padding: 20px;
+}
+
+footer {
+	font: 100% mont-reg;
+}
